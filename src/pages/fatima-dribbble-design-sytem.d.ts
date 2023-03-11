@@ -1,0 +1,1 @@
+declare module 'fatima-dribbble-design-system';

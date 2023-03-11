@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { Button, Card } from  'fatima-dribbble-design-system'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
+            Hello Fa! Get started by editing&nbsp;
             <code className={styles.code}>src/pages/index.tsx</code>
           </p>
           <div>
@@ -38,6 +39,19 @@ export default function Home() {
             </a>
           </div>
         </div>
+
+        <Button label="Button on Next"/>
+
+        <br/>
+        <Card 
+            img="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+            kicker="SPECIAL EVENTS"
+            title="Happy Women's Day!"
+            description="Today we're celebrating women's day!"
+          />
+        <br/>
+
+
 
         <div className={styles.center}>
           <Image
